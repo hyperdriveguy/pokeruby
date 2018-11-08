@@ -6,11 +6,11 @@ Moroni:
 
 ```
 Hello there! Welcome to the Land of Zarahemla!
-My name is MORONI. I'm the captain over the armies
+My name is MORONI. I’m the captain over the armies
 of my people, the Nephites.
 
 We are amidst troubling times. A traitor from among
-us, AMALICKIAH, has aspired to obtain power.
+us, AMALICKIAH, has sought to obtain power.
 He has flattered the hearts of many to follow after
 him. He has gone to our bretheren, the Lamanites,
 to incite them to go to war against us.

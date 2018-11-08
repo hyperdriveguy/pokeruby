@@ -54,22 +54,18 @@ const u8 gBirchText_Girl[] = _("GIRL");
 const u8 gBirchText_NewName[] = _("NEW NAME");
 
 #ifdef SAPPHIRE
-const u8 gDefaultBoyName1[] = _("SEAN");
+const u8 gDefaultBoyName1[] = _("PANCHI");
 #else
-const u8 gDefaultBoyName1[] = _("LANDON");
+const u8 gDefaultBoyName1[] = _("PAHORAN");
 #endif
-const u8 gDefaultBoyName2[] = _("TERRY");
+const u8 gDefaultBoyName2[] = _("AMOS");
 const u8 gDefaultBoyName3[] = _("SETH");
-const u8 gDefaultBoyName4[] = _("TOM");
+const u8 gDefaultBoyName4[] = _("LEHI");
 
-#ifdef SAPPHIRE
-const u8 gDefaultGirlName1[] = _("MARINA");
-#else
-const u8 gDefaultGirlName1[] = _("TERRA");
-#endif
-const u8 gDefaultGirlName2[] = _("KIMMY");
-const u8 gDefaultGirlName3[] = _("NICOLA");
-const u8 gDefaultGirlName4[] = _("SARA");
+const u8 gDefaultGirlName1[] = _("ESTHER");
+const u8 gDefaultGirlName2[] = _("MARY");
+const u8 gDefaultGirlName3[] = _("RUTH");
+const u8 gDefaultGirlName4[] = _("SARIAH");
 
 const u8 gSystemText_IntroWeCall[] = _("This is what we call\na POKéMON.");
 const u8 gSystemText_NewPara[] = _("\p");
@@ -93,7 +89,7 @@ const u8 DexText_ListByABC[] = _("List by the first letter in the name.\n/Spotte
 const u8 DexText_ListByColor[] = _("List by body color.\n/Spotted POKéMON only.");
 const u8 DexText_ListByType[] = _("List by type.\n/Owned POKéMON only.");
 const u8 DexText_ExecuteSearchSwitch[] = _("Execute search/switch.");
-const u8 DexText_HoennDex[] = _("HOENN DEX");
+const u8 DexText_HoennDex[] = _("ZARAHEMLA DEX");
 const u8 DexText_NationalDex[] = _("NATIONAL DEX");
 const u8 DexText_NumericalMode[] = _("NUMERICAL MODE");
 const u8 DexText_ABCMode[] = _("A TO Z MODE");
@@ -120,7 +116,7 @@ const u8 DexText_Purple[] = _("PURPLE");
 const u8 DexText_Gray[] = _("GRAY");
 const u8 DexText_White[] = _("WHITE");
 const u8 DexText_Pink[] = _("PINK");
-const u8 DexText_HoennDex2[] = _("HOENN region’s POKéDEX");
+const u8 DexText_HoennDex2[] = _("ZARAHEMLA’s POKéDEX");
 const u8 DexText_NationalDex2[] = _("National edition POKéDEX");
 const u8 DexText_ListByNumber[] = _("POKéMON are listed according to their\nnumber.");
 const u8 DexText_ListByABC2[] = _("Spotted and owned POKéMON are listed\nalphabetically.");
@@ -145,7 +141,7 @@ const u8 gOtherText_Level3[] = _("Lv. ");
 const u8 gOtherText_IDNumber[] = _("IDNo. /");
 const u8 gOtherText_Name[] = _("NAME /");
 const u8 gOtherText_IDNumber2[] = _("IDNo. /");
-const u8 gOtherText_BirchInTrouble[] = _("{HIGHLIGHT WHITE2}{COLOR DARK_GREY}PROF. BIRCH is in trouble!\nRelease a POKéMON and rescue him!");
+const u8 gOtherText_BirchInTrouble[] = _("{HIGHLIGHT WHITE2}{COLOR DARK_GREY}Choose a POKéMON to infiltrate\nthe fortified city with!");
 const u8 gOtherText_DoYouChoosePoke[] = _("{HIGHLIGHT WHITE2}{COLOR DARK_GREY}Do you choose this POKéMON?");
 const u8 gOtherText_Poke[] = _("POKéMON");
 

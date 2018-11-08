@@ -825,32 +825,32 @@ static void Task_NewGameSpeech4(u8 taskId)
     {
         gTasks[taskId].func = Task_NewGameSpeech5;
         //"This is what we call a POKEMON."
-        MenuPrintMessage(gBirchSpeech_ThisIsPokemon, 3, 14);
+        //MenuPrintMessage(gBirchSpeech_ThisIsPokemon, 3, 14);
     }
 }
 
 static void Task_NewGameSpeech5(u8 taskId)
 {
-    if (BirchSpeechUpdateWindowText())
-        gTasks[taskId].func = Task_NewGameSpeech6;
+    //if (BirchSpeechUpdateWindowText())
+    gTasks[taskId].func = Task_NewGameSpeech6;
 }
 
 static void Task_NewGameSpeech6(u8 taskId)
 {
-    u8 spriteId = gTasks[taskId].tAzurillSpriteId;
+    //u8 spriteId = gTasks[taskId].tAzurillSpriteId;
 
-    gSprites[spriteId].pos1.x = 104;
-    gSprites[spriteId].pos1.y = 72;
-    gSprites[spriteId].invisible = 0;
-    gSprites[spriteId].data[0] = 0;
-    CreatePokeballSprite(spriteId, gSprites[spriteId].oam.paletteNum, 0x70, 0x3A, 0, 0, 0x20, 0x0000FFFF);
+   // gSprites[spriteId].pos1.x = 94;
+   // gSprites[spriteId].pos1.y = 70;
+   /// gSprites[spriteId].invisible = 0;
+    //gSprites[spriteId].data[0] = 0;
+   // CreatePokeballSprite(spriteId, gSprites[spriteId].oam.paletteNum, 0x70, 0x3A, 0, 0, 0x20, 0x0000FFFF);
     gTasks[taskId].func = Task_NewGameSpeech7;
-    gTasks[taskId].tFrameCounter = 0;
+    //gTasks[taskId].tFrameCounter = 0;
 }
 
 static void Task_NewGameSpeech7(u8 taskId)
 {
-    if (IsCryFinished())
+   /** if (IsCryFinished())
     {
         //Go on to next sentence after frame 95
         if (gTasks[taskId].tFrameCounter > 95)
@@ -866,7 +866,9 @@ static void Task_NewGameSpeech7(u8 taskId)
         //Play Azurill cry at frame 32
         if (gTasks[taskId].tFrameCounter == 32)
             PlayCry1(SPECIES_AZURILL, 0);
-    }
+    }**/
+   
+    gTasks[taskId].func = Task_NewGameSpeech8;
 }
 
 static void Task_NewGameSpeech8(u8 taskId)
@@ -954,6 +956,7 @@ static void Task_NewGameSpeech13(u8 taskId)
     if (gTasks[taskId].tSubtaskIsDone)
     {
         gSprites[gTasks[taskId].tTrainerSpriteId].oam.objMode = ST_OAM_OBJ_NORMAL;
+        gSprites[gTasks[taskId].tAzurillSpriteId].invisible = TRUE;
         gTasks[taskId].func = Task_NewGameSpeech14;
     }
 }
@@ -1190,7 +1193,7 @@ static void Task_NewGameSpeech27(u8 taskId)
         spriteId = (u8)gTasks[taskId].tAzurillSpriteId;
         gSprites[spriteId].pos1.x = 104;
         gSprites[spriteId].pos1.y = 72;
-        gSprites[spriteId].invisible = FALSE;
+        gSprites[spriteId].invisible = TRUE;
         gSprites[spriteId].oam.objMode = ST_OAM_OBJ_BLEND;
 
         StartSpriteFadeIn(taskId, 2);
