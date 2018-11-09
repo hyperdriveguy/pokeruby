@@ -1,4 +1,4 @@
-SafariZone_Northwest:: @ 8307BA8
+SafariZone_Northwest::
 	.4byte SafariZone_Northwest_Layout
 	.4byte SafariZone_Northwest_MapEvents
 	.4byte SafariZone_Northwest_MapScripts

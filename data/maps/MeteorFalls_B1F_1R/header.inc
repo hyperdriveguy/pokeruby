@@ -1,4 +1,4 @@
-MeteorFalls_B1F_1R:: @ 8306DA8
+MeteorFalls_B1F_1R::
 	.4byte MeteorFalls_B1F_1R_Layout
 	.4byte MeteorFalls_B1F_1R_MapEvents
 	.4byte MeteorFalls_B1F_1R_MapScripts

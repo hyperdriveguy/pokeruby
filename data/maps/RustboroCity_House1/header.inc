@@ -1,4 +1,4 @@
-RustboroCity_House1:: @ 8306344
+RustboroCity_House1::
 	.4byte RustboroCity_House1_Layout
 	.4byte RustboroCity_House1_MapEvents
 	.4byte RustboroCity_House1_MapScripts

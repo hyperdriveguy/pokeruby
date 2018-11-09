@@ -1,4 +1,4 @@
-LavaridgeTown_House:: @ 8305C44
+LavaridgeTown_House::
 	.4byte House3_Layout
 	.4byte LavaridgeTown_House_MapEvents
 	.4byte LavaridgeTown_House_MapScripts

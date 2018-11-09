@@ -1,7 +1,6 @@
-Route101_MapConnectionsList:: @ 830881C
-	connection up, 0, MAP_OLDALE_TOWN
-	connection down, 0, MAP_LITTLEROOT_TOWN
+Route101_MapConnectionsList::
+	connection down, -10, MAP_INSIDE_OF_TRUCK
 
-Route101_MapConnections:: @ 8308834
-	.4byte 0x2
+Route101_MapConnections::
+	.4byte 1
 	.4byte Route101_MapConnectionsList

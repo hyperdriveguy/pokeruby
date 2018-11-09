@@ -1,1 +1,2 @@
-UnknownMap_25_33_MapEvents:: @ 8391604
+UnknownMap_25_33_MapEvents::
+	map_events 0x0, 0x0, 0x0, 0x0

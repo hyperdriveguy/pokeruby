@@ -1,4 +1,4 @@
-RustboroCity_House3:: @ 83063EC
+RustboroCity_House3::
 	.4byte RustboroCity_House_Layout
 	.4byte RustboroCity_House3_MapEvents
 	.4byte RustboroCity_House3_MapScripts

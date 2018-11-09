@@ -1,4 +1,4 @@
-FieryPath:: @ 8306EF8
+FieryPath::
 	.4byte FieryPath_Layout
 	.4byte FieryPath_MapEvents
 	.4byte FieryPath_MapScripts

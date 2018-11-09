@@ -1,4 +1,4 @@
-AbandonedShip_Deck:: @ 8307358
+AbandonedShip_Deck::
 	.4byte AbandonedShip_Deck_Layout
 	.4byte AbandonedShip_Deck_MapEvents
 	.4byte AbandonedShip_Deck_MapScripts

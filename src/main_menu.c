@@ -837,37 +837,11 @@ static void Task_NewGameSpeech5(u8 taskId)
 
 static void Task_NewGameSpeech6(u8 taskId)
 {
-    //u8 spriteId = gTasks[taskId].tAzurillSpriteId;
-
-   // gSprites[spriteId].pos1.x = 94;
-   // gSprites[spriteId].pos1.y = 70;
-   /// gSprites[spriteId].invisible = 0;
-    //gSprites[spriteId].data[0] = 0;
-   // CreatePokeballSprite(spriteId, gSprites[spriteId].oam.paletteNum, 0x70, 0x3A, 0, 0, 0x20, 0x0000FFFF);
     gTasks[taskId].func = Task_NewGameSpeech7;
-    //gTasks[taskId].tFrameCounter = 0;
 }
 
 static void Task_NewGameSpeech7(u8 taskId)
 {
-   /** if (IsCryFinished())
-    {
-        //Go on to next sentence after frame 95
-        if (gTasks[taskId].tFrameCounter > 95)
-        {
-            Menu_SetText(gSystemText_NewPara);
-            gTasks[taskId].func = Task_NewGameSpeech8;
-        }
-    }
-
-    if (gTasks[taskId].tFrameCounter < 16384)
-    {
-        gTasks[taskId].tFrameCounter++;
-        //Play Azurill cry at frame 32
-        if (gTasks[taskId].tFrameCounter == 32)
-            PlayCry1(SPECIES_AZURILL, 0);
-    }**/
-   
     gTasks[taskId].func = Task_NewGameSpeech8;
 }
 

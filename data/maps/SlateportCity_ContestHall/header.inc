@@ -1,4 +1,4 @@
-SlateportCity_ContestHall:: @ 8306034
+SlateportCity_ContestHall::
 	.4byte ContestHall_Layout
 	.4byte SlateportCity_ContestHall_MapEvents
 	.4byte SlateportCity_ContestHall_MapScripts

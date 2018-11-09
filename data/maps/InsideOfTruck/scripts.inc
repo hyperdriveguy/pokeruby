@@ -1,6 +1,6 @@
 InsideOfTruck_MapScripts:: @ 815FBFF
-	map_script 1, InsideOfTruck_MapScript1_15FC0A
-	map_script 5, InsideOfTruck_MapScript1_15FC26
+	@map_script 1, InsideOfTruck_MapScript1_15FC0A
+	@map_script 5, InsideOfTruck_MapScript1_15FC26
 	.byte 0
 
 InsideOfTruck_MapScript1_15FC0A:: @ 815FC0A
@@ -50,3 +50,100 @@ InsideOfTruck_EventScript_15FC68:: @ 815FC68
 InsideOfTruck_EventScript_15FC8B:: @ 815FC8B
 	msgbox InsideOfTruck_Text_198FAD, 3
 	end
+
+InsideOfTruck_EventScript_Fence_On_Top::
+    setmetatile 3, 23, 871, 3
+    setmetatile 4, 23, 871, 3
+    setmetatile 5, 23, 871, 3
+    setmetatile 6, 23, 871, 3
+    setmetatile 7, 23, 871, 3
+    setmetatile 8, 23, 871, 3
+    setmetatile 9, 23, 871, 3
+    setmetatile 10, 23, 871, 3
+    setmetatile 11, 23, 871, 3
+    setmetatile 12, 23, 871, 3
+    setmetatile 13, 23, 871, 3
+    setmetatile 14, 23, 871, 3
+    setmetatile 15, 23, 871, 3
+    setmetatile 16, 23, 871, 3
+    setmetatile 17, 23, 871, 3
+    setmetatile 18, 23, 871, 3
+    setmetatile 19, 23, 871, 3
+    setmetatile 20, 23, 871, 3
+    setmetatile 21, 23, 871, 3
+    setmetatile 22, 23, 871, 3
+    setmetatile 23, 23, 871, 3
+    setmetatile 24, 23, 871, 3
+    setmetatile 25, 23, 871, 3
+    setmetatile 26, 23, 871, 3
+    setmetatile 27, 23, 871, 3
+    setmetatile 28, 23, 871, 3
+    setmetatile 29, 23, 871, 3
+    setmetatile 30, 23, 871, 3
+    setmetatile 31, 23, 871, 3
+    setmetatile 32, 23, 871, 3
+    setmetatile 33, 23, 871, 3
+    setmetatile 34, 23, 871, 3
+    setmetatile 35, 23, 871, 3
+    setmetatile 36, 23, 871, 3
+    setmetatile 37, 23, 871, 3
+    setmetatile 38, 23, 871, 3
+    setmetatile 39, 23, 871, 3
+    setmetatile 40, 23, 871, 3
+    setmetatile 41, 23, 871, 3
+    setmetatile 42, 23, 871, 3
+    setmetatile 43, 23, 871, 3
+    setmetatile 44, 23, 871, 3
+    setmetatile 45, 23, 871, 3
+    setmetatile 46, 23, 871, 3
+    releaseall
+    end
+
+InsideOfTruck_EventScript_Fence_On_Bottom::
+    setmetatile 3, 23, 652, 3
+    setmetatile 4, 23, 652, 3
+    setmetatile 5, 23, 652, 3
+    setmetatile 6, 23, 652, 3
+    setmetatile 7, 23, 652, 3
+    setmetatile 8, 23, 652, 3
+    setmetatile 9, 23, 652, 3
+    setmetatile 10, 23, 652, 3
+    setmetatile 11, 23, 652, 3
+    setmetatile 12, 23, 652, 3
+    setmetatile 13, 23, 652, 3
+    setmetatile 14, 23, 652, 3
+    setmetatile 15, 23, 652, 3
+    setmetatile 16, 23, 652, 3
+    setmetatile 17, 23, 652, 3
+    setmetatile 18, 23, 652, 3
+    setmetatile 19, 23, 652, 3
+    setmetatile 20, 23, 652, 3
+    setmetatile 21, 23, 652, 3
+    setmetatile 22, 23, 652, 3
+    setmetatile 23, 23, 652, 3
+    setmetatile 24, 23, 652, 3
+    setmetatile 25, 23, 652, 3
+    setmetatile 26, 23, 652, 3
+    setmetatile 27, 23, 652, 3
+    setmetatile 28, 23, 652, 3
+    setmetatile 29, 23, 652, 3
+    setmetatile 30, 23, 652, 3
+    setmetatile 31, 23, 652, 3
+    setmetatile 32, 23, 652, 3
+    setmetatile 33, 23, 652, 3
+    setmetatile 34, 23, 652, 3
+    setmetatile 35, 23, 652, 3
+    setmetatile 36, 23, 652, 3
+    setmetatile 37, 23, 652, 3
+    setmetatile 38, 23, 652, 3
+    setmetatile 39, 23, 652, 3
+    setmetatile 40, 23, 652, 3
+    setmetatile 41, 23, 652, 3
+    setmetatile 42, 23, 652, 3
+    setmetatile 43, 23, 652, 3
+    setmetatile 44, 23, 652, 3
+    setmetatile 45, 23, 652, 3
+    setmetatile 46, 23, 652, 3
+    releaseall
+    end
+    

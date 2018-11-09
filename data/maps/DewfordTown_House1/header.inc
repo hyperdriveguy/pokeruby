@@ -1,4 +1,4 @@
-DewfordTown_House1:: @ 8305B48
+DewfordTown_House1::
 	.4byte House3_Layout
 	.4byte DewfordTown_House1_MapEvents
 	.4byte DewfordTown_House1_MapScripts

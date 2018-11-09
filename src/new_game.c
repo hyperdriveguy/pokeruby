@@ -136,7 +136,7 @@ void debug_sub_8052E04()
 
 void WarpToTruck(void)
 {
-    Overworld_SetWarpDestination(MAP_GROUP(INSIDE_OF_TRUCK), MAP_NUM(INSIDE_OF_TRUCK), -1, -1, -1);
+    Overworld_SetWarpDestination(MAP_GROUP(INSIDE_OF_TRUCK), MAP_NUM(INSIDE_OF_TRUCK), 0, -1, -1);
     WarpIntoMap();
 }
 
@@ -179,7 +179,7 @@ void NewGameInitData(void)
     ResetGabbyAndTy();
     ResetSecretBases();
     ClearBerryTrees();
-    gSaveBlock1.money = 3000;
+    gSaveBlock1.money = 5000;
     ResetLinkContestBoolean();
     ResetGameStats();
     ResetContestAndMuseumWinners();

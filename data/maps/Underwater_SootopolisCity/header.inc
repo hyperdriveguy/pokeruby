@@ -1,4 +1,4 @@
-Underwater_SootopolisCity:: @ 8306DFC
+Underwater_SootopolisCity::
 	.4byte Underwater_SootopolisCity_Layout
 	.4byte Underwater_SootopolisCity_MapEvents
 	.4byte Underwater_SootopolisCity_MapScripts

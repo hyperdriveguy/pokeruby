@@ -1,4 +1,4 @@
-Route119_House:: @ 8307F28
+Route119_House::
 	.4byte House1_Layout
 	.4byte Route119_House_MapEvents
 	.4byte Route119_House_MapScripts

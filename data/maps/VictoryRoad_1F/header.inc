@@ -1,4 +1,4 @@
-VictoryRoad_1F:: @ 8307224
+VictoryRoad_1F::
 	.4byte VictoryRoad_1F_Layout
 	.4byte VictoryRoad_1F_MapEvents
 	.4byte VictoryRoad_1F_MapScripts

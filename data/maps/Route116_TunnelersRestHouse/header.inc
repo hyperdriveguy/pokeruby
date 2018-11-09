@@ -1,4 +1,4 @@
-Route116_TunnelersRestHouse:: @ 8306D1C
+Route116_TunnelersRestHouse::
 	.4byte Route116_TunnelersRestHouse_Layout
 	.4byte Route116_TunnelersRestHouse_MapEvents
 	.4byte Route116_TunnelersRestHouse_MapScripts

@@ -1,4 +1,4 @@
-RustboroCity_Flat1_1F:: @ 830630C
+RustboroCity_Flat1_1F::
 	.4byte RustboroCity_Flat1_1F_Layout
 	.4byte RustboroCity_Flat1_1F_MapEvents
 	.4byte RustboroCity_Flat1_1F_MapScripts

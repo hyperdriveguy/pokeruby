@@ -1,7 +1,7 @@
-Route130_MapConnectionsList:: @ 8308C70
+Route130_MapConnectionsList::
 	connection left, 0, MAP_ROUTE131
 	connection right, 0, MAP_ROUTE129
 
-Route130_MapConnections:: @ 8308C88
-	.4byte 0x2
+Route130_MapConnections::
+	.4byte 2
 	.4byte Route130_MapConnectionsList

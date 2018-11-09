@@ -1,4 +1,4 @@
-Route114_LanettesHouse:: @ 8306D00
+Route114_LanettesHouse::
 	.4byte Route114_LanettesHouse_Layout
 	.4byte Route114_LanettesHouse_MapEvents
 	.4byte Route114_LanettesHouse_MapScripts

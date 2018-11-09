@@ -1,14 +1,14 @@
-InsideOfTruck:: @ 8307B38
+InsideOfTruck::
 	.4byte InsideOfTruck_Layout
 	.4byte InsideOfTruck_MapEvents
 	.4byte InsideOfTruck_MapScripts
-	.4byte 0x0
-	.2byte SE_STOP
+	.4byte InsideOfTruck_MapConnections
+	.2byte MUS_AJITO
 	.2byte 238
-	.byte MAPSEC_INSIDE_OF_TRUCK
+	.byte MAPSEC_LITTLEROOT_TOWN
 	.byte 0
-	.byte WEATHER_NONE
-	.byte MAP_TYPE_INDOOR
+	.byte WEATHER_SUNNY
+	.byte MAP_TYPE_TOWN
 	.2byte 0
 	.byte 0
 	.byte MAP_BATTLE_SCENE_NORMAL

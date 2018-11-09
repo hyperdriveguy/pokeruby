@@ -1,1 +1,2 @@
-LinkContestRoom5_MapEvents:: @ 8391604
+LinkContestRoom5_MapEvents::
+	map_events 0x0, 0x0, 0x0, 0x0

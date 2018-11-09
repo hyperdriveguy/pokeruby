@@ -1,14 +1,15 @@
-LinkContestRoom6_MapBorder:: @ 82E9F20
+LinkContestRoom6_MapBorder::
 	.incbin "data/layouts/LinkContestRoom6/border.bin"
 
-LinkContestRoom6_MapBlockdata:: @ 82E9F28
+LinkContestRoom6_MapBlockdata::
 	.incbin "data/layouts/LinkContestRoom6/map.bin"
 
 	.align 2
-LinkContestRoom6_Layout:: @ 82EA074
-	.4byte 0xf
-	.4byte 0xb
+LinkContestRoom6_Layout::
+	.4byte 12
+	.4byte 6
 	.4byte LinkContestRoom6_MapBorder
 	.4byte LinkContestRoom6_MapBlockdata
-	.4byte gTileset_General
-	.4byte gTileset_Contest
+	.4byte gTileset_Building
+	.4byte gTileset_Cave
+

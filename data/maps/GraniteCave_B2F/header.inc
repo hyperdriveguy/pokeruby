@@ -1,4 +1,4 @@
-GraniteCave_B2F:: @ 8306E6C
+GraniteCave_B2F::
 	.4byte GraniteCave_B2F_Layout
 	.4byte GraniteCave_B2F_MapEvents
 	.4byte GraniteCave_B2F_MapScripts

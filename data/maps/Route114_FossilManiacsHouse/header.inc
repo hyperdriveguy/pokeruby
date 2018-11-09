@@ -1,4 +1,4 @@
-Route114_FossilManiacsHouse:: @ 8306CC8
+Route114_FossilManiacsHouse::
 	.4byte Route114_FossilManiacsHouse_Layout
 	.4byte Route114_FossilManiacsHouse_MapEvents
 	.4byte Route114_FossilManiacsHouse_MapScripts

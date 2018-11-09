@@ -1,4 +1,4 @@
-UnknownMap_25_33:: @ 8307A74
+UnknownMap_25_33::
 	.4byte UnknownMap_25_33_Layout
 	.4byte UnknownMap_25_33_MapEvents
 	.4byte UnknownMap_25_33_MapScripts

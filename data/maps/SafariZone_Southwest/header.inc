@@ -1,4 +1,4 @@
-SafariZone_Southwest:: @ 8307BE0
+SafariZone_Southwest::
 	.4byte SafariZone_Southwest_Layout
 	.4byte SafariZone_Southwest_MapEvents
 	.4byte SafariZone_Southwest_MapScripts

@@ -1,4 +1,4 @@
-Route122:: @ 8305854
+Route122::
 	.4byte Route122_Layout
 	.4byte Route122_MapEvents
 	.4byte Route122_MapScripts

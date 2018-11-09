@@ -1,4 +1,4 @@
-NewMauville_Inside:: @ 830733C
+NewMauville_Inside::
 	.4byte NewMauville_Inside_Layout
 	.4byte NewMauville_Inside_MapEvents
 	.4byte NewMauville_Inside_MapScripts

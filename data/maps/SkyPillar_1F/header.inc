@@ -1,4 +1,4 @@
-SkyPillar_1F:: @ 8307614
+SkyPillar_1F::
 	.4byte SkyPillar_1F_Layout
 	.4byte SkyPillar_1F_MapEvents
 	.4byte SkyPillar_1F_MapScripts

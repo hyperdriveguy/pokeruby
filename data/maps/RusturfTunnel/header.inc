@@ -1,4 +1,4 @@
-RusturfTunnel:: @ 8306DE0
+RusturfTunnel::
 	.4byte RusturfTunnel_Layout
 	.4byte RusturfTunnel_MapEvents
 	.4byte RusturfTunnel_MapScripts

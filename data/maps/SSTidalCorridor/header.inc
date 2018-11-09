@@ -1,4 +1,4 @@
-SSTidalCorridor:: @ 8307B54
+SSTidalCorridor::
 	.4byte SSTidalCorridor_Layout
 	.4byte SSTidalCorridor_MapEvents
 	.4byte SSTidalCorridor_MapScripts

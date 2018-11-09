@@ -1,4 +1,4 @@
-Route114_FossilManiacsTunnel:: @ 8306CE4
+Route114_FossilManiacsTunnel::
 	.4byte Route114_FossilManiacsTunnel_Layout
 	.4byte Route114_FossilManiacsTunnel_MapEvents
 	.4byte Route114_FossilManiacsTunnel_MapScripts

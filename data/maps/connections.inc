@@ -1,4 +1,3 @@
-	.include "data/maps/LittlerootTown/connections.inc"
 	.include "data/maps/OldaleTown/connections.inc"
 	.include "data/maps/DewfordTown/connections.inc"
 	.include "data/maps/LavaridgeTown/connections.inc"
@@ -12,7 +11,6 @@
 	.include "data/maps/FortreeCity/connections.inc"
 	.include "data/maps/LilycoveCity/connections.inc"
 	.include "data/maps/MossdeepCity/connections.inc"
-	.include "data/maps/SootopolisCity/connections.inc"
 	.include "data/maps/EverGrandeCity/connections.inc"
 	.include "data/maps/Route101/connections.inc"
 	.include "data/maps/Route102/connections.inc"
@@ -56,3 +54,4 @@
 	.include "data/maps/SafariZone_Northeast/connections.inc"
 	.include "data/maps/SafariZone_Southwest/connections.inc"
 	.include "data/maps/SafariZone_Southeast/connections.inc"
+	.include "data/maps/InsideOfTruck/connections.inc"

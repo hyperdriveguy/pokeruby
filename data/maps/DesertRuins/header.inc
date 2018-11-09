@@ -1,4 +1,4 @@
-DesertRuins:: @ 8306E18
+DesertRuins::
 	.4byte DesertRuins_Layout
 	.4byte DesertRuins_MapEvents
 	.4byte DesertRuins_MapScripts

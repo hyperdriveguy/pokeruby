@@ -1,4 +1,4 @@
-SafariZone_Northeast:: @ 8307BC4
+SafariZone_Northeast::
 	.4byte SafariZone_Northeast_Layout
 	.4byte SafariZone_Northeast_MapEvents
 	.4byte SafariZone_Northeast_MapScripts

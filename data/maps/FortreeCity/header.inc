@@ -1,4 +1,4 @@
-FortreeCity:: @ 83054B8
+FortreeCity::
 	.4byte FortreeCity_Layout
 	.4byte FortreeCity_MapEvents
 	.4byte FortreeCity_MapScripts

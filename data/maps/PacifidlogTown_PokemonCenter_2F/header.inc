@@ -1,4 +1,4 @@
-PacifidlogTown_PokemonCenter_2F:: @ 8305E74
+PacifidlogTown_PokemonCenter_2F::
 	.4byte PokemonCenter_2F_Layout
 	.4byte PacifidlogTown_PokemonCenter_2F_MapEvents
 	.4byte PacifidlogTown_PokemonCenter_2F_MapScripts

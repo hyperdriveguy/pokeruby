@@ -1,4 +1,4 @@
-Route129:: @ 8305918
+Route129::
 	.4byte Route129_Layout
 	.4byte Route129_MapEvents
 	.4byte Route129_MapScripts

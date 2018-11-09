@@ -1,4 +1,4 @@
-LilycoveCity_House2:: @ 83066A8
+LilycoveCity_House2::
 	.4byte LilycoveCity_House2_Layout
 	.4byte LilycoveCity_House2_MapEvents
 	.4byte LilycoveCity_House2_MapScripts
