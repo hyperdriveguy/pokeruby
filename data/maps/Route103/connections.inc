@@ -1,7 +1,6 @@
 Route103_MapConnectionsList::
-	connection down, 0, MAP_OLDALE_TOWN
-	connection right, -60, MAP_ROUTE110
+	connection down, -10, MAP_INSIDE_OF_TRUCK
 
 Route103_MapConnections::
-	.4byte 2
+	.4byte 1
 	.4byte Route103_MapConnectionsList
