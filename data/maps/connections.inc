@@ -12,7 +12,6 @@
 	.include "data/maps/LilycoveCity/connections.inc"
 	.include "data/maps/MossdeepCity/connections.inc"
 	.include "data/maps/EverGrandeCity/connections.inc"
-	.include "data/maps/Route101/connections.inc"
 	.include "data/maps/Route102/connections.inc"
 	.include "data/maps/Route103/connections.inc"
 	.include "data/maps/Route104/connections.inc"

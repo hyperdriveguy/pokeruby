@@ -1,4 +1,4 @@
-MossdeepCity_Gym:: @ 83067C0
+MossdeepCity_Gym::
 	.4byte MossdeepCity_Gym_Layout
 	.4byte MossdeepCity_Gym_MapEvents
 	.4byte MossdeepCity_Gym_MapScripts
