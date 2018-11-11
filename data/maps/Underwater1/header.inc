@@ -1,4 +1,4 @@
-Underwater1:: @ 83059C0
+Underwater1::
 	.4byte Underwater1_Layout
 	.4byte Underwater1_MapEvents
 	.4byte Underwater1_MapScripts

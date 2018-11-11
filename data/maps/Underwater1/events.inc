@@ -1,4 +1,4 @@
-Underwater1_MapBGEvents:: @ 8385518
+Underwater1_MapBGEvents::
 	bg_hidden_item_event 42, 51, 0, ITEM_CARBOS, FLAG_HIDDEN_ITEM_8
 	bg_hidden_item_event 14, 40, 0, ITEM_GREEN_SHARD, FLAG_HIDDEN_ITEM_9
 	bg_hidden_item_event 66, 34, 3, ITEM_PEARL, FLAG_HIDDEN_ITEM_A
@@ -7,5 +7,5 @@ Underwater1_MapBGEvents:: @ 8385518
 	bg_hidden_item_event 42, 5, 3, ITEM_CALCIUM, FLAG_HIDDEN_ITEM_24
 	bg_hidden_item_event 45, 36, 3, ITEM_HEART_SCALE, FLAG_HIDDEN_ITEM_26
 
-Underwater1_MapEvents:: @ 838556C
+Underwater1_MapEvents::
 	map_events 0x0, 0x0, 0x0, Underwater1_MapBGEvents

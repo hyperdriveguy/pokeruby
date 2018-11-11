@@ -1,4 +1,4 @@
-Underwater2:: @ 83059DC
+Underwater2::
 	.4byte Underwater2_Layout
 	.4byte Underwater2_MapEvents
 	.4byte Underwater2_MapScripts

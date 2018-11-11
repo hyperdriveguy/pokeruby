@@ -1,4 +1,4 @@
-Underwater3:: @ 83059F8
+Underwater3::
 	.4byte Underwater3_Layout
 	.4byte Underwater3_MapEvents
 	.4byte Underwater3_MapScripts

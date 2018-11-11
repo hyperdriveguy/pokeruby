@@ -1,4 +1,4 @@
-LavaridgeTown_EventObjects:: @ 8380C78
+LavaridgeTown_EventObjects::
 	object_event 1, EVENT_OBJ_GFX_OLD_WOMAN_1, 0, 8, 7, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, LavaridgeTown_EventScript_14E751, 0
 	object_event 2, EVENT_OBJ_GFX_OLD_MAN_1, 0, 5, 1, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, LavaridgeTown_EventScript_14E724, 0
 	object_event 3, EVENT_OBJ_GFX_OLD_MAN_2, 0, 5, 8, 3, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, LavaridgeTown_EventScript_14E72D, 0
@@ -9,7 +9,7 @@ LavaridgeTown_EventObjects:: @ 8380C78
 	object_event 8, EVENT_OBJ_GFX_VAR_0, 0, 12, 15, 0, MOVEMENT_TYPE_FACE_DOWN, 0, 0, 0, 0, LavaridgeTown_EventScript_14E575, FLAG_HIDE_RIVAL_LAVARIDGE_1
 	object_event 9, EVENT_OBJ_GFX_OLD_WOMAN_1, 0, 4, 7, 3, MOVEMENT_TYPE_FACE_DOWN, 1, 1, 0, 0, LavaridgeTown_EventScript_14E75A, 0
 
-LavaridgeTown_MapWarps:: @ 8380D50
+LavaridgeTown_MapWarps::
 	warp_def 12, 15, 0, 0, MAP_LAVARIDGE_TOWN_HERB_SHOP
 	warp_def 5, 15, 0, 0, MAP_LAVARIDGE_TOWN_GYM_1F
 	warp_def 15, 5, 0, 0, MAP_LAVARIDGE_TOWN_MART
@@ -17,10 +17,10 @@ LavaridgeTown_MapWarps:: @ 8380D50
 	warp_def 16, 15, 0, 0, MAP_LAVARIDGE_TOWN_HOUSE
 	warp_def 9, 2, 3, 3, MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F
 
-LavaridgeTown_MapCoordEvents:: @ 8380D80
+LavaridgeTown_MapCoordEvents::
 	coord_event 6, 3, 3, 0, 0, LavaridgeTown_EventScript_14E710
 
-LavaridgeTown_MapBGEvents:: @ 8380D90
+LavaridgeTown_MapBGEvents::
 	bg_event 14, 16, 0, BG_EVENT_PLAYER_FACING_ANY, LavaridgeTown_EventScript_14E7D7
 	bg_event 7, 15, 0, BG_EVENT_PLAYER_FACING_ANY, LavaridgeTown_EventScript_14E7C5
 	bg_event 17, 5, 0, BG_EVENT_PLAYER_FACING_NORTH, LavaridgeTown_EventScript_1A00E1
@@ -30,5 +30,5 @@ LavaridgeTown_MapBGEvents:: @ 8380D90
 	bg_event 11, 6, 0, BG_EVENT_PLAYER_FACING_NORTH, LavaridgeTown_EventScript_1A00EA
 	bg_hidden_item_event 4, 5, 3, ITEM_ICE_HEAL, FLAG_HIDDEN_ITEM_0
 
-LavaridgeTown_MapEvents:: @ 8380DF0
+LavaridgeTown_MapEvents::
 	map_events LavaridgeTown_EventObjects, LavaridgeTown_MapWarps, LavaridgeTown_MapCoordEvents, LavaridgeTown_MapBGEvents
